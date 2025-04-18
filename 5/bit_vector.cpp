@@ -236,3 +236,5 @@ int sign_magnitude_addition(char *bv1, char *bv2)
     bit_addition(bv1, bv2, result);
     return b2s(result);
 }
+
+//github.com/hw5773/cos-examples.git
