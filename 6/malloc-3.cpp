@@ -12,7 +12,7 @@ int main()
 
     for (i=0; i<x; i++)
     {
-        cout<< i << "th iteration> p: " << (void *)p >> endl;
+        cout<< i << "th iteration> p: " << (void *)p << endl;
         p = (int *)malloc(sizeof(int) * 1000000);
         for (j=0; j<1000000; j++)
             p[j] = 1000000 * i + j;
